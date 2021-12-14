@@ -1,4 +1,6 @@
-export const GET_LANDING_PAGE = /* GraphQL */ `
+import { gql } from 'graphql-request'
+
+export const GET_LANDING_PAGE = gql`
   query GET_LANDING_PAGE {
     landingPage {
       logo {
